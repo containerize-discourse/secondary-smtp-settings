@@ -1,0 +1,19 @@
+plugins:
+  smtp_enabled:
+    default: false
+  smtp_address:
+    default: ''
+  smtp_port:
+    default: ''
+  smtp_domain:
+    default: ''
+  smtp_user_name:
+    default: ''
+  smtp_password:
+    default: ''
+  smtp_authentication:
+    default: ''
+  smtp_enable_start_tls:
+    default: false
+  smtp_openssl_verify_mode:
+    default: ''

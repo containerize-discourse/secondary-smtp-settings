@@ -4,7 +4,7 @@ plugins:
   smtp_address:
     default: ''
   smtp_port:
-    default: ''
+    default: '587'
   smtp_domain:
     default: ''
   smtp_user_name:
@@ -12,8 +12,8 @@ plugins:
   smtp_password:
     default: ''
   smtp_authentication:
-    default: ''
+    default: 'login'
   smtp_enable_start_tls:
-    default: false
+    default: true
   smtp_openssl_verify_mode:
     default: ''
